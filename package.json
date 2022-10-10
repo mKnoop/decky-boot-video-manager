@@ -1,15 +1,11 @@
 {
-  "name": "decky-plugin-template",
+  "name": "simple-custom-boot-video-manager",
   "version": "0.0.1",
-  "description": "A template to quickly create decky plugins from scratch, based on TypeScript and webpack",
+  "description": "A simple custom boot video manager",
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
     "watch": "rollup -c -w",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/SteamDeckHomebrew/decky-plugin-template.git"
   },
   "keywords": [
     "decky",
@@ -18,12 +14,7 @@
     "steam-deck",
     "deck"
   ],
-  "author": "Jonas Dellinger <jonas@dellinger.dev>",
   "license": "BSD-3-Clause",
-  "bugs": {
-    "url": "https://github.com/SteamDeckHomebrew/decky-plugin-template/issues"
-  },
-  "homepage": "https://github.com/SteamDeckHomebrew/decky-plugin-template#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^21.1.0",
     "@rollup/plugin-json": "^4.1.0",

@@ -1,10 +1,9 @@
 {
-  "name": "Example Plugin",
-  "author": "John Doe",
+  "name": "Simple Custom Boot Video Manager ",
   "flags": ["debug", "_root"],
   "publish": {
     "tags": ["template", "root"],
-    "description": "Decky example plugin.",
+    "description": "Simple Custom Boot Video Manager.",
     "image": "https://opengraph.githubassets.com/1/SteamDeckHomebrew/PluginLoader"
   }
 }
